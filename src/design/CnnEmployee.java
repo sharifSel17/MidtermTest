@@ -14,7 +14,7 @@ public class CnnEmployee {
 	 *
 	 **/
 	public static void main(String[] args) {
-		
+		System.out.println("kk");
 
 
 	}

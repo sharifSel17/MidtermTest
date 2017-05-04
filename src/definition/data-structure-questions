@@ -1,28 +1,107 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
+Ans: Data structure is a particular way of storing and organizing information in a computer so that it can be retrieved and used most productively. Different kinds of data structures are meant for different kinds of applications, and some are highly specialized to specific tasks.
+
+
 List out the areas in which data structures are applied extensively?
+Ans:Compiler Design,
+    Operating System,
+    Database Management System,
+    Statistical analysis package,
+    Numerical Analysis,
+    Graphics,
+    Artificial Intelligence,
+    and Simulation.
+
 what is an Array?
+Ans:array is an object the contains elements of similar data type. It is a data structure where we store similar elements. We can store only fixed set of elements in a java array.
+
 what is the difference between the Array and ArrayList?
+Ans:Array is static in size that is fixed length data structure, One can not change the length after creating the Array object.
+ArrayList is dynamic in size . Each ArrayList object  has instance variable capacity which indicates the size of the ArrayList. As elements are added to an ArrayList its capacity grows automatically.
+
 what is LinkedList?
+Ans:Linked List is a linear data structure and it is very common data structure which consists of group of nodes in a sequence which is divided in two parts. Each node consists of its own data and the address of the next node and forms a chain. Linked Lists are used to create trees and graphs.
+
 what is queue?
+Ans:Queue is an abstract data structure, somewhat similar to Stacks. Unlike stacks, a queue is open at both its ends. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue). Queue follows First-In-First-Out methodology. the data item stored first will be accessed first.
+Ans:
+
 what is stack?
+Ans: A stack is a data structure that allows data to be inserted (a 'push' operation), and removed (a 'pop' operation). Many stacks also support a read ahead (a 'peek' operation), which reads data without removing it. A stack is a LIFO-queue, meaning that the last data to be inserted will be the first data to be removed.
+
 what is FIFO and LIFO?
+Ans:FIFO=>FIFO stands for First in First Out. It is nothing but a queue in which the item that enters first
+LIFO=>LIFO on the other hand stands for Last in First Out. It is also called a stack
+
 what is the order of complexity?
+Ans: This means that it is a certain mathematical expression of the size of the input, and the algorithm finishes between two factors of it. Generally, the smaller the order of complexity of the program's underlying algorithm, the faster it will run and the better it will scale as the input gets larger.
+
 what is the best case to search an element from an array?
+Ans:The best-case complexity of the algorithm is the function defined by the minimum number of steps taken on any instance of size n. It represents the curve passing through the lowest point of each column.
+
 what is the worst case to search an element from an array?
+Ans:The worst-case complexity of the algorithm is the function defined by the maximum number of steps taken on any instance of size n. It represents the curve passing through the highest point of each column.
+
 what is tree in data structure?
+Ans:Binary Tree is a special data structure used for data storage purposes. A binary tree has a special condition that each node can have a maximum of two children. A binary tree has the benefits of both an ordered array and a linked list as search is as quick as in a sorted array and insertion or deletion operation are as fast as in linked list.
+
+
 what is graph in data structure?
+Ans: A set of items connected by edges. Each item is called a vertex or node. Formally, a graph is a set of vertices and a binary relation between vertices, adjacency.
+
+
 what is the difference between the HashTable and HashMap?
+Ans:1)Hashtable is synchronized whereas hashmap is not. 2)Another difference is that iterator in the HashMap is fail-safe while the enumerator for the Hashtable isn't. If you change the map while iterating, you'll know. 3)HashMap permits null values in it, while Hashtable doesn't.
+
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Ans:
+
+
 How HashMap works in java?
-What is ArrayIndexOutOfBoundsException in java? When it occurs?
+Ans: HashMap in Java works on hashing principle. ... When we call put method, hashcode() method of the key object is called so that hash function of the map can find a bucket location to store value object, which is actually an index of the internal array, known as the table
+
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?.
+Ans:This exception is thrown when you try to access an array item that doesn't exist:
+    String [] myArray = new String[2];
+
+    myArray[2] = "something"; // Throws exception
+    myArray[-1] = "something"; // Throws exception
+
+
+
 What are the different ways of copying an array into another array?
+Ans: There are mainly four different ways to copy all elements of one array into another array in Java.
+1. Manually
+2. Arrays.copyOf()
+3. System.arraycopy()
+4. Object.clone()
+
+
 What is difference between an array and a linked list?
+Ans:In array, each element is independent, no connection with previous element or with its location.
+ In Linked list, location or address of elements is stored in the link part of previous element/node.
+ In array, no pointers are used like linked list so no need of extra space in memory for pointer
+
 What is DFS and BFS?
+Ans: The breadth first search (BFS) and the depth first search (DFS) are the two algorithms used for traversing and searching a node in a graph. They can also be used to find out whether a node is reachable from a given node or not.
+
 What is Recursion?
+Ans:Recursion is a basic programming technique you can use in Java, in which a method calls itself to solve some problem. A method that uses this technique is recursive. Many programming problems can be solved only by recursion, and some problems that can be solved by other techniques are better solved by recursion.
+
+
 What is Big-(O)-notation?
+Ans:Search Results
+    Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. Big O specifically describes the worst-case scenario, and can be used to describe the execution time required or the space used (e.g. in memory or on disk) by an algorithm.
+
+
 Outlined different kind of sorting algorithm with time complexity?
+Ans:Efficient sorts[edit] Practical general sorting algorithms are almost always based on an algorithm with average time complexity (and generally worst-case complexity) O(n log n), of which the most common are heap sort, merge sort, and quicksort.
+
+
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.

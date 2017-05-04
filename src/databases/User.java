@@ -6,13 +6,13 @@ package databases;
 public class User {
 
     String name;
-    int id;
+   // int id;
 
     public User(){}
 
-    public User(String name, int id) {
+    public User(String name) {
         this.name = name;
-        this.id = id;
+        //this.id = id;
     }
     public String getName() {
         return name;
@@ -22,11 +22,11 @@ public class User {
         this.name = name;
     }
 
-    public int getId() {
-        return id;
-    }
+   // public int getId() {
+        //return id;
+    //}
 
-    public void setId(int id) {
-        this.id = id;
-    }
+   // public void setId(int id) {
+        //this.id = id;
+   // }
 }
